@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  29 MAR 2014 17:49
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  29 MAR 2014 18:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -441,105 +441,84 @@ LaTeX Warning: Citation `singapore' on page 2 undefined on input line 85.
 LaTeX Warning: Citation `ref' on page 2 undefined on input line 87.
 
 
-LaTeX Warning: Citation `pelikan2002survey' on page 2 undefined on input line 9
-4.
+LaTeX Warning: Citation `zhang2000bayesian' on page 2 undefined on input line 9
+5.
+
+
+LaTeX Warning: Citation `tang2010restricted' on page 2 undefined on input line 
+95.
+
+
+LaTeX Warning: Citation `pelikan2001escaping' on page 2 undefined on input line
+ 95.
 
 [2]
 
 LaTeX Warning: Citation `hinton2006reducing' on page 3 undefined on input line 
-97.
+103.
 
 
 LaTeX Warning: Citation `vincent2008extracting' on page 3 undefined on input li
-ne 99.
+ne 107.
 
 
-LaTeX Warning: Citation `Watson' on page 3 undefined on input line 101.
+LaTeX Warning: Citation `Watson' on page 3 undefined on input line 119.
 
-
-Underfull \vbox (badness 2158) has occurred while \output is active []
-
- [3]
-
-LaTeX Warning: Citation `zhang2000bayesian' on page 4 undefined on input line 1
-11.
-
-
-LaTeX Warning: Citation `tang2010restricted' on page 4 undefined on input line 
-111.
-
-
-LaTeX Warning: Citation `pelikan2001escaping' on page 4 undefined on input line
- 111.
-
-
-LaTeX Warning: Citation `hinton2006reducing' on page 4 undefined on input line 
-119.
-
-
-LaTeX Warning: Citation `vincent2008extracting' on page 4 undefined on input li
-ne 123.
-
-[4]
-
-LaTeX Warning: Citation `Watson' on page 5 undefined on input line 135.
-
-<images/boxplots_basins.png, id=28, 578.16pt x 433.62pt>
+[3] <images/boxplots_basins.png, id=25, 578.16pt x 433.62pt>
 File: images/boxplots_basins.png Graphic file (type png)
 
 <use images/boxplots_basins.png>
-<images/hiff-8-transition.png, id=30, 578.16pt x 433.62pt>
+<images/hiff-8-transition.png, id=27, 578.16pt x 433.62pt>
 File: images/hiff-8-transition.png Graphic file (type png)
 
 <use images/hiff-8-transition.png>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-[6 <./images/boxplots_basins.png> <./images/hiff-8-transition.png>]
+ [4 <./images/boxplots_basins.png>]
 
-LaTeX Warning: Citation `ref' on page 7 undefined on input line 198.
+LaTeX Warning: Citation `ref' on page 5 undefined on input line 182.
 
+[5 <./images/hiff-8-transition.png>]
 
-LaTeX Warning: Citation `ref' on page 7 undefined on input line 202.
-
-
-LaTeX Warning: Citation `mitchell' on page 7 undefined on input line 205.
+LaTeX Warning: Citation `ref' on page 6 undefined on input line 186.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--207
+LaTeX Warning: Citation `mitchell' on page 6 undefined on input line 189.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--191
 
  []
 
-[7]
+[6]
 
-LaTeX Warning: Citation `watson_evolution' on page 8 undefined on input line 22
-1.
+LaTeX Warning: Citation `watson_evolution' on page 7 undefined on input line 20
+5.
 
 
-LaTeX Warning: Citation `Igel benchmarking' on page 8 undefined on input line 2
-24.
+LaTeX Warning: Citation `Igel benchmarking' on page 7 undefined on input line 2
+08.
 
-[8]
 
 Package caption Warning: \label before \caption on input line 243.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `table:main_results' on page 9 undefined on input line
- 226.
+LaTeX Warning: Reference `table:main_results' on page 7 undefined on input line
+ 210.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
 []\OT1/cmr/m/n/9 Knapsack
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--238
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
 []\OT1/cmr/m/n/9 Knapsack
  []
 
 
-Overfull \hbox (38.38046pt too wide) in paragraph at lines 229--244
+Overfull \hbox (38.38046pt too wide) in paragraph at lines 213--228
 [][]
  []
 
@@ -548,63 +527,68 @@ Package caption Warning: \label before \caption on input line 243.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `table:main_results' on page 9 undefined on input line
- 247.
+LaTeX Warning: Reference `table:main_results' on page 8 undefined on input line
+ 231.
 
-[9]
 
 Package caption Warning: \label before \caption on input line 265.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `table:continuous_results' on page 10 undefined on inp
-ut line 250.
+LaTeX Warning: Reference `table:continuous_results' on page 8 undefined on inpu
+t line 234.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
 []\OT1/cmr/m/n/9 Rosenbrock
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
 []\OT1/cmr/m/n/9 Rastrigin
  []
 
 
-Overfull \hbox (70.55728pt too wide) in paragraph at lines 252--266
+Overfull \hbox (70.55728pt too wide) in paragraph at lines 236--250
 [][]
  []
 
-[10]
-Overfull \hbox (56.88594pt too wide) in paragraph at lines 274--281
+
+Underfull \vbox (badness 5741) has occurred while \output is active []
+
+ [8]
+[9]
+Overfull \hbox (56.88594pt too wide) in paragraph at lines 258--265
 [][]
  []
 
-<images/boxy_square_cmap.png, id=54, 676.4472pt x 101.9007pt>
+<images/boxy_square_cmap.png, id=51, 676.4472pt x 101.9007pt>
 File: images/boxy_square_cmap.png Graphic file (type png)
 
 <use images/boxy_square_cmap.png>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!htbp') on input line 292.
+               Default added (so using `!htbp') on input line 276.
 
-<images/lots_of_crossies.png, id=55, 578.16pt x 433.62pt>
+<images/lots_of_crossies.png, id=52, 578.16pt x 433.62pt>
 File: images/lots_of_crossies.png Graphic file (type png)
 
 <use images/lots_of_crossies.png>
-<images/first_pop.png, id=56, 578.16pt x 433.62pt>
+<images/first_pop.png, id=53, 578.16pt x 433.62pt>
 File: images/first_pop.png Graphic file (type png)
  <use images/first_pop.png>
-<images/no_learning.png, id=57, 578.16pt x 433.62pt>
+<images/no_learning.png, id=54, 578.16pt x 433.62pt>
 File: images/no_learning.png Graphic file (type png)
 
 <use images/no_learning.png>
 
-LaTeX Warning: Float too large for page by 204.04012pt on input line 317.
+LaTeX Warning: Float too large for page by 204.04012pt on input line 301.
 
-(./autoencoder_ppsn.bbl [11]) [12 <./images/boxy_square_cmap.png>] [13 <./image
-s/lots_of_crossies.png> <./images/first_pop.png> <./images/no_learning.png>]
-(./autoencoder_ppsn.aux)
+(./autoencoder_ppsn.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./images/boxy_square_cmap.png>] [11 <./images/lots_of_crossies.png> <./im
+ages/first_pop.png> <./images/no_learning.png>]) [12] (./autoencoder_ppsn.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -613,13 +597,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3827 strings out of 493747
- 54408 string characters out of 3143546
- 132679 words of memory out of 3000000
- 7054 multiletter control sequences out of 15000+200000
+ 3826 strings out of 493747
+ 54389 string characters out of 3143546
+ 136679 words of memory out of 3000000
+ 7053 multiletter control sequences out of 15000+200000
  11544 words of font info for 44 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,10n,38p,2305b,313s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,10n,38p,2305b,304s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
@@ -635,10 +619,10 @@ ve/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
 /2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2
 010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/201
 0/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on autoencoder_ppsn.pdf (13 pages, 455664 bytes).
+Output written on autoencoder_ppsn.pdf (12 pages, 450734 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
+ 116 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
