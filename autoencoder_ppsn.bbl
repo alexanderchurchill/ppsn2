@@ -1,14 +1,51 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{pelikan2006scalable}
 Pelikan, M., Sastry, K., Cant{\'u}-Paz, E.:
 \newblock Scalable optimization via probabilistic modeling.
 \newblock Springer (2006)
 
-\bibitem{hboa}
-Pelikan, M.:
-\newblock Hierarchical Bayesian optimization algorithm.
-\newblock Springer (2005)
+\bibitem{pelikan2002survey}
+Pelikan, M., Goldberg, D.E., Lobo, F.G.:
+\newblock A survey of optimization by building and using probabilistic models.
+\newblock Computational optimization and applications \textbf{21}(1) (2002)
+  5--20
+
+\bibitem{hinton2006reducing}
+Hinton, G.E., Salakhutdinov, R.R.:
+\newblock Reducing the dimensionality of data with neural networks.
+\newblock Science \textbf{313}(5786) (2006)  504--507
+
+\bibitem{baluja1994population}
+Baluja, S.:
+\newblock Population-based incremental learning. a method for integrating
+  genetic search based function optimization and competitive learning.
+\newblock Technical report, DTIC Document (1994)
+
+\bibitem{harik1999linkage}
+Harik, G.:
+\newblock Linkage learning via probabilistic modeling in the ecga.
+\newblock Urbana \textbf{51}(61) (1999)  801
+
+\bibitem{harik1999compact}
+Harik, G.R., Lobo, F.G., Goldberg, D.E.:
+\newblock The compact genetic algorithm.
+\newblock Evolutionary Computation, IEEE Transactions on \textbf{3}(4) (1999)
+  287--297
+
+\bibitem{marti2008introducing}
+Mart{\'\i}, L., Garc{\'\i}a, J., Berlanga, A., Molina, J.M.:
+\newblock Introducing moneda: Scalable multiobjective optimization with a
+  neural estimation of distribution algorithm.
+\newblock In: Proceedings of the 10th annual conference on Genetic and
+  evolutionary computation, ACM (2008)  689--696
+
+\bibitem{tang2010restricted}
+Tang, H., Shim, V.A., Tan, K.C., Chia, J.Y.:
+\newblock Restricted boltzmann machine based algorithm for multi-objective
+  optimization.
+\newblock In: Evolutionary Computation (CEC), 2010 IEEE Congress on, IEEE
+  (2010)  1--8
 
 \bibitem{fernando2010neuronal}
 Fernando, C., Goldstein, R., Szathm{\'a}ry, E.:
@@ -21,17 +58,48 @@ Zhang, B.T., Shin, S.Y.:
 \newblock In: Parallel Problem Solving from Nature PPSN VI, Springer (2000)
   827--836
 
-\bibitem{tang2010restricted}
-Tang, H., Shim, V.A., Tan, K.C., Chia, J.Y.:
-\newblock Restricted boltzmann machine based algorithm for multi-objective
-  optimization.
-\newblock In: Evolutionary Computation (CEC), 2010 IEEE Congress on, IEEE
-  (2010)  1--8
-
 \bibitem{pelikan2001escaping}
 Pelikan, M., Goldberg, D.E.:
 \newblock Escaping hierarchical traps with competent genetic algorithms.
 \newblock In: Proceedings of the Genetic and Evolutionary Computation
   Conference (GECCO-2001). (2001)  511--518
+
+\bibitem{vincent2008extracting}
+Vincent, P., Larochelle, H., Bengio, Y., Manzagol, P.A.:
+\newblock Extracting and composing robust features with denoising autoencoders.
+\newblock In: Proceedings of the 25th international conference on Machine
+  learning, ACM (2008)  1096--1103
+
+\bibitem{hboa}
+Pelikan, M.:
+\newblock Hierarchical Bayesian optimization algorithm.
+\newblock Springer (2005)
+
+\bibitem{watson1999hierarchically}
+Watson, R.A., Pollack, J.B.:
+\newblock Hierarchically consistent test problems for genetic algorithms.
+\newblock In: Evolutionary Computation, 1999. CEC 99. Proceedings of the 1999
+  Congress on. Volume~2., IEEE (1999)
+
+\bibitem{mitchell1992royal}
+Mitchell, M., Forrest, S., Holland, J.H.:
+\newblock The royal road for genetic algorithms: Fitness landscapes and ga
+  performance.
+\newblock In: Proceedings of the first european conference on artificial life,
+  Cambridge: The MIT Press (1992)  245--254
+
+\bibitem{watson2014evolution}
+Watson, R.A., Wagner, G.P., Pavlicev, M., Weinreich, D.M., Mills, R.:
+\newblock The evolution of phenotypic correlations and “developmental
+  memory”.
+\newblock Evolution (2014)
+
+\bibitem{auger2009benchmarking}
+Auger, A.:
+\newblock Benchmarking the (1+ 1) evolution strategy with one-fifth success
+  rule on the bbob-2009 function testbed.
+\newblock In: Proceedings of the 11th Annual Conference Companion on Genetic
+  and Evolutionary Computation Conference: Late Breaking Papers, ACM (2009)
+  2447--2452
 
 \end{thebibliography}

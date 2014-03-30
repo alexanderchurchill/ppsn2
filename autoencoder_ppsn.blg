@@ -1,69 +1,47 @@
-This is BibTeX, Version 0.99d (TeX Live 2010)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: autoencoder_ppsn.aux
-White space in argument---line 8 of file autoencoder_ppsn.aux
- : \citation{ref
- :               }
-I'm skipping whatever remains of this command
-White space in argument---line 54 of file autoencoder_ppsn.aux
- : \citation{Igel
- :                benchmarking}
-I'm skipping whatever remains of this command
 The style file: splncs.bst
 Database file #1: autoencoder_ppsn.bib
 Warning--I didn't find a database entry for "ref"
-Warning--I didn't find a database entry for "cha"
-Warning--I didn't find a database entry for "phil"
-Warning--I didn't find a database entry for "uvmp"
-Warning--I didn't find a database entry for "ecga"
-Warning--I didn't find a database entry for "mccall"
-Warning--I didn't find a database entry for "ltga"
-Warning--I didn't find a database entry for "moneda"
-Warning--I didn't find a database entry for "singapore"
-Warning--I didn't find a database entry for "hinton2006reducing"
-Warning--I didn't find a database entry for "vincent2008extracting"
-Warning--I didn't find a database entry for "Watson"
-Warning--I didn't find a database entry for "mitchell"
-Warning--I didn't find a database entry for "watson_evolution"
-You've used 6 entries,
+You've used 17 entries,
             2087 wiz_defined-function locations,
-            539 strings with 4899 characters,
-and the built_in function-call counts, 1899 in all, are:
-= -- 199
-> -- 56
-< -- 4
-+ -- 21
-- -- 15
-* -- 114
-:= -- 244
-add.period$ -- 7
-call.type$ -- 6
-change.case$ -- 4
+            593 strings with 7135 characters,
+and the built_in function-call counts, 5403 in all, are:
+= -- 577
+> -- 162
+< -- 13
++ -- 61
+- -- 44
+* -- 341
+:= -- 695
+add.period$ -- 20
+call.type$ -- 17
+change.case$ -- 16
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 105
-empty$ -- 198
-format.name$ -- 15
-if$ -- 478
+cite$ -- 17
+duplicate$ -- 297
+empty$ -- 540
+format.name$ -- 44
+if$ -- 1355
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 8
-newline$ -- 33
-num.names$ -- 6
-pop$ -- 33
+int.to.str$ -- 17
+missing$ -- 18
+newline$ -- 88
+num.names$ -- 17
+pop$ -- 74
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 71
+skip$ -- 199
 stack$ -- 0
-substring$ -- 120
-swap$ -- 51
-text.length$ -- 4
+substring$ -- 353
+swap$ -- 156
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 18
-width$ -- 7
-write$ -- 69
-(There were 2 error messages)
+while$ -- 51
+width$ -- 19
+write$ -- 198
+(There was 1 warning)
