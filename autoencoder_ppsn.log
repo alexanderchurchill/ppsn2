@@ -1,17 +1,27 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.2.3)  30 MAR 2014 17:22
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  30 MAR 2014 17:55
 entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**autoencoder_ppsn
+**autoencoder_ppsn.tex
 (./autoencoder_ppsn.tex
 LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, arabic, armenian
+, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, u
+kenglish, usenglishmax, esperanto, estonian, farsi, finnish, french, galician, 
+german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assamese,
+ bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, tamil, 
+telugu, indonesian, interlingua, irish, italian, kurmanji, lao, latin, latvian,
+ lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, roma
+nian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turkish,
+ turkmen, ukrainian, uppersorbian, welsh, loaded.
 (./llncs.cls
 Document Class: llncs 2013/09/27 v2.18 
  LaTeX document class for Lecture Notes in Computer Science
-(/usr/share/texmf-texlive/tex/latex/base/article.cls
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -26,7 +36,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texmf-texlive/tex/latex/tools/multicol.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \c@tracingmulticols=\count87
 \mult@box=\box26
@@ -72,10 +82,10 @@ Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \multicolundershoot=\dimen110
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
-) (./aliascnt.sty
+)
+(./aliascnt.sty
 Package: aliascnt 2009/09/08 v1.3 Alias counter (HO)
-
-(./remreset.sty))
+ (./remreset.sty))
 \c@chapter=\count95
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
 LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
@@ -126,10 +136,11 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
 \c@solution=\count113
 \c@remark=\count114
 \headlineindent=\dimen123
-) (/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
-(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks18
 \symAMSa=\mathgroup4
@@ -137,24 +148,24 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks19
 \ex@=\dimen124
 ))
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen125
 )
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count115
@@ -198,50 +209,64 @@ Package amsmath Warning: Unable to redefine math accent \vec.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
-) (/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+) (/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks24
 )
-(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/etc/texmf/tex/latex/config/graphics.cfg
-File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: dvips.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
-File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
+\Gread@gobject=\count127
 ))
 \Gin@req@height=\dimen133
 \Gin@req@width=\dimen134
 )
+(/usr/local/texlive/2010/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip48
+\subfigcapskip=\skip49
+\subfigcaptopadj=\dimen135
+\subfigbottomskip=\skip50
+\subfigcapmargin=\dimen136
+\subfiglabelskip=\skip51
+\c@subfigure=\count128
+\c@lofdepth=\count129
+\c@subtable=\count130
+\c@lotdepth=\count131
 
-! LaTeX Error: File `subfigure.sty' not found.
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2010/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip52
+\subfig@bottom=\skip53
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2010/01/09 v3.1m Customizing captions (AR)
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-(/usr/share/texmf-texlive/tex/latex/caption/caption.sty
-Package: caption 2009/10/09 v3.1k Customizing captions (AR)
-
-(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
-Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
-\captionmargin=\dimen135
-\captionmargin@=\dimen136
-\captionwidth=\dimen137
-\caption@indent=\dimen138
-\caption@parindent=\dimen139
-\caption@hangindent=\dimen140
+(/usr/local/texlive/2010/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2010/01/14 v3.1m caption3 kernel (AR)
+\captionmargin=\dimen137
+\captionmargin@=\dimen138
+\captionwidth=\dimen139
+\caption@indent=\dimen140
+\caption@parindent=\dimen141
+\caption@hangindent=\dimen142
 Package caption Info: Unknown document class (or package),
-(caption)             standard defaults will be used on input line 1068.
+(caption)             standard defaults will be used on input line 1084.
 )
 
 Package caption Warning: Unsupported document class (or package) detected,
@@ -252,26 +277,13 @@ Package caption Info: \@makecaption = \long macro:#1#2->\small \vskip \abovecap
 tionskip \sbox \@tempboxa {{\bfseries #1.} #2}\ifdim \wd \@tempboxa >\hsize {\b
 fseries #1.} #2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@
 tempboxa \hfil }\fi \vskip \belowcaptionskip .
-\c@ContinuedFloat=\count127
+\c@ContinuedFloat=\count132
 Package caption Info: subfigure package is loaded.
-
-! Package caption Error: For a successful cooperation we need at least version
-(caption)                `2002/01/23 v2.1' of package subfigure,
-(caption)                but only version
-(caption)                `'
-(caption)                is available.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1403 }{}
-          
-? 
-) (/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+) (/usr/local/texlive/2010/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-) (./autoencoder_ppsn.aux
+)
+(./autoencoder_ppsn.aux
 
 LaTeX Warning: Label `fig:subfig1' multiply defined.
 
@@ -290,32 +302,79 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
+ (/usr/local/texlive/2010/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count133
+\scratchdimen=\dimen143
+\scratchbox=\box56
+\nofMPsegments=\count134
+\nofMParguments=\count135
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count136
+\MPscratchDim=\dimen144
+\MPnumerator=\count137
+\everyMPtoPDFconversion=\toks26
+) (/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2010/04/01 v0.9 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2010/04/26 v1.7 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 436.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: Incompatible package detected (regarding \@caption).
-(caption)             \@caption = \long macro:#1[#2]#3->\par \addcontentsline {
-\csname ext@#1\endcsname }{#1}{\protect \numberline {\csname the#1\endcsname }{
-\ignorespaces #2}}\begingroup \@parboxrestore \@makecaption {\csname fnum@#1\en
-dcsname }{\ignorespaces #3}\par \endgroup .
-
-
-Package caption Warning: \caption will not be redefined since it's already
-(caption)                redefined by a document class or package which is
-(caption)                unknown to the caption package.
-See the caption package documentation for explanation.
-
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Try loading font information for U+msa on input line 68.
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 68.
 
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 68.
 
-(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
@@ -323,37 +382,24 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
  [1
 
 
-] [2] [3]
+{/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
 
-! LaTeX Error: Cannot determine size of graphic in images/boxplots_basins.png (
-no BoundingBox).
+<images/boxplots_basins.png, id=25, 578.16pt x 433.62pt>
+File: images/boxplots_basins.png Graphic file (type png)
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.123 ....6\textwidth]{images/boxplots_basins.png}
-                                                  
-? 
-File: images/boxplots_basins.png Graphic file (type eps)
-<images/boxplots_basins.png>
+<use images/boxplots_basins.png>
+<images/hiff-8-transition.png, id=27, 578.16pt x 433.62pt>
+File: images/hiff-8-transition.png Graphic file (type png)
 
-! LaTeX Error: Cannot determine size of graphic in images/hiff-8-transition.png
- (no BoundingBox).
+<use images/hiff-8-transition.png> [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.131 ...\textwidth]{images/hiff-8-transition.png}
-                                                  
-? 
-File: images/hiff-8-transition.png Graphic file (type eps)
-<images/hiff-8-transition.png> [4] [5] [6]
+ [5 <./images/boxplots_basins.png> <./images/hiff-8-transition.png>]
 
-LaTeX Warning: Citation `Igel benchmarking' on page 7 undefined on input line 1
+LaTeX Warning: Citation `Igel benchmarking' on page 6 undefined on input line 1
 86.
 
+[6]
 
 Package caption Warning: \label before \caption on input line 206.
 See the caption package documentation for explanation.
@@ -385,110 +431,59 @@ Overfull \hbox (35.71097pt too wide) in paragraph at lines 190--207
 [][]
  []
 
-[7]
 
 Package caption Warning: \label before \caption on input line 227.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `table:continuous_results' on page 8 undefined on inpu
+LaTeX Warning: Reference `table:continuous_results' on page 7 undefined on inpu
 t line 212.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
-[]\OT1/cmr/m/n/9 Rosenbrock
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
-[]\OT1/cmr/m/n/9 Rastrigin
- []
-
-
-Overfull \hbox (70.55728pt too wide) in paragraph at lines 214--228
+Overfull \hbox (19.46718pt too wide) in paragraph at lines 214--228
 [][]
  []
+
+[7]
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 233.
+
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 233.
+
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 233.
 
 [8]
-Overfull \hbox (56.88594pt too wide) in paragraph at lines 236--243
+Overfull \hbox (56.88594pt too wide) in paragraph at lines 238--245
 [][]
  []
 
+<images/boxy_square_cmap.png, id=48, 676.4472pt x 101.9007pt>
+File: images/boxy_square_cmap.png Graphic file (type png)
 
-! LaTeX Error: Cannot determine size of graphic in images/boxy_square_cmap.png 
-(no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.248 ...0\textwidth]{images/boxy_square_cmap.png}
-                                                  
-? 
-File: images/boxy_square_cmap.png Graphic file (type eps)
-<images/boxy_square_cmap.png>
+<use images/boxy_square_cmap.png>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!htbp') on input line 254.
+               Default added (so using `!htbp') on input line 256.
 
-! Undefined control sequence.
-l.256 \subfigure
-                []{
-? 
+<images/lots_of_crossies.png, id=49, 578.16pt x 433.62pt>
+File: images/lots_of_crossies.png Graphic file (type png)
 
-! LaTeX Error: Cannot determine size of graphic in images/lots_of_crossies.png 
-(no BoundingBox).
+<use images/lots_of_crossies.png>
+<images/first_pop.png, id=50, 578.16pt x 433.62pt>
+File: images/first_pop.png Graphic file (type png)
+ <use images/first_pop.png>
+<images/no_learning.png, id=51, 578.16pt x 433.62pt>
+File: images/no_learning.png Graphic file (type png)
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.261     }
-           
-? 
-File: images/lots_of_crossies.png Graphic file (type eps)
-<images/lots_of_crossies.png>
-! Undefined control sequence.
-l.263 \subfigure
-                []{
-? 
+<use images/no_learning.png>
 
-! LaTeX Error: Cannot determine size of graphic in images/first_pop.png (no Bou
-ndingBox).
+LaTeX Warning: Float too large for page by 204.04012pt on input line 281.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.268     }
-           
-? 
-File: images/first_pop.png Graphic file (type eps)
-<images/first_pop.png>
-! Undefined control sequence.
-l.270 \subfigure
-                []{
-? 
-
-! LaTeX Error: Cannot determine size of graphic in images/no_learning.png (no B
-oundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.275     }
-           
-? 
-File: images/no_learning.png Graphic file (type eps)
-<images/no_learning.png>
-Underfull \vbox (badness 5008) has occurred while \output is active []
-
- [9]
-
-LaTeX Warning: Text page 10 contains only floats.
-
-[10] [11] (./autoencoder_ppsn.bbl [12]
+[9] [10 <./images/boxy_square_cmap.png>] [11 <./images/lots_of_crossies.png> <.
+/images/first_pop.png> <./images/no_learning.png>] (./autoencoder_ppsn.bbl
+[12]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no œ in font cmr9!
@@ -504,12 +499,33 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2893 strings out of 495062
- 39321 string characters out of 1182645
- 126947 words of memory out of 3000000
- 6049 multiletter control sequences out of 15000+50000
+ 3827 strings out of 493747
+ 54543 string characters out of 3143546
+ 136786 words of memory out of 3000000
+ 7054 multiletter control sequences out of 15000+200000
  11544 words of font info for 44 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 36i,10n,38p,2301b,313s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 714 hyphenation exceptions out of 8191
+ 38i,10n,38p,1781b,310s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/lo
+cal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
+exlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
+ive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive
+/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
+010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/201
+0/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2010/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on autoencoder_ppsn.pdf (13 pages, 462844 bytes).
+PDF statistics:
+ 124 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on autoencoder_ppsn.dvi (13 pages, 50588 bytes).
