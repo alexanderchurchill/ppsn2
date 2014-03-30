@@ -143,37 +143,43 @@ The pipeline of the \emph{Denoising Autoencoder Genetic Algorithm} (DAGA) is sim
 DAGA is tested on three sets of experiments: (1) discrete, (2) continuous and (3) accumulation of adaptation problems. 
 
 \subsection{Discrete}
-\subsubsection{Multi-dimensional Knapsack Problem}
-Here we wish to choose of subset of \(N\) items to maximise the total value of items, \(z\), while satisfying \(m\) constraints. We wish to maximise:
-\vspace{2mm}\\
-\(z = \sum_{j=1}^{N} v_jx_j\), subject to \(\sum_{j=1}^{N} w_{ij}x_i \leq c_i, i = 1, ..., m\)
-\vspace{2mm}\\
-\(x_i \in \{0,1\}, j = 1, ..., N\).
-\vspace{2mm}\\
-Two different instances are used in the results presented below. The first is the Weing8 instance \cite{weingartner1967methods}, which has 105 items and two constraints (optimal solution is 602,319), and the second is a randomly generated instance with 500 items and one constraint (optimal solution is 100,104). Both instances are available in the supplementary material. If any of the \(m\) constraints are violated, the total value of chosen items is multiplied by \(-1\).
+% Here we wish to choose of subset of \(N\) items to maximise the total value of items, \(z\), while satisfying \(m\) constraints. We wish to maximise:
+% \vspace{2mm}\\
+% \(z = \sum_{j=1}^{N} v_jx_j\), subject to \(\sum_{j=1}^{N} w_{ij}x_i \leq c_i, i = 1, ..., m\)
+% \vspace{2mm}\\
+% \(x_i \in \{0,1\}, j = 1, ..., N\).
+% \vspace{2mm}\\
+We perform experiments on two different instances of the \textbf{Multi-dimensional Knacksack problem}. The first is the Weing8 instance \cite{weingartner1967methods}, which has 105 items and two constraints (optimal solution is 602,319), and the second is a randomly generated instance with 500 items and one constraint (optimal solution is 10,104). Both instances are available in the supplementary material.
 
-\subsubsection{Hierarchical If and only If}
+ %If any of the \(m\) constraints are violated, the total value of chosen items is multiplied by \(-1\).
+% The Hierarchical If and only If (HIFF) problem was created by Watson et al., as an example of a function which is not separable \cite{watson1999hierarchically}. It is a pathological function for a hill climber because of a very large number of local optima. The HIFF is structured as a balanced binary tree \cite{hboa}, where at each lower level a transfer function is applied to consecutive non-overlapping 2-bit partitions, 00 \(\rightarrow\) 0, 11 \(\rightarrow\) 1, anything else \(\rightarrow\) null, to define the string in the layer above. At each level, 00 and 11 blocks contribute to the fitness by \(2^{level}\). Two global optima exist, a string of all 1s and all 0s. 
 
-The Hierarchical If and only If (HIFF) problem was created by Watson et al., as an example of a function which is not separable \cite{watson1999hierarchically}. It is a pathological function for a hill climber because of a very large number of local optima. The HIFF is structured as a balanced binary tree \cite{hboa}, where at each lower level a transfer function is applied to consecutive non-overlapping 2-bit partitions, 00 \(\rightarrow\) 0, 11 \(\rightarrow\) 1, anything else \(\rightarrow\) null, to define the string in the layer above. At each level, 00 and 11 blocks contribute to the fitness by \(2^{level}\). Two global optima exist, a string of all 1s and all 0s. In the results section, DAGA is applied to the 128-bit HIFF. In order to remove any possible bias towards an all 1s solution, solutions from DAGA have a random bit mask (fixed before each trial) applied to them before evaluating fitness.
+The proposed system is then applied to the 128-bit and the 256-bit \textbf{Hierarchical If and Only If problem (HIFF)} \cite{watson1999hierarchically}. In order to remove any possible bias towards an all 1s solution, solutions from DAGA have a random bit mask (fixed before each trial) applied to them before evaluating fitness.
 
-\subsubsection{Royal Road}
-The Royal Road function as defined by Mitchell et al. \cite{mitchell1992royal}, divides a bit string, \(x\), into a number of  equally sized, non-overlapping partitions, \(z_i\in[x_i, ..., x_{i+n}])\). If all of the bits in the partition match a predefined pattern, \(s_i\) , then the partition's fitness contribution is added to the overall fitness. The existence of these ``Building blocks" was meant to act as a ``royal road" for GAs compared to hill-climbers but bad alleles hitchhiking to good partial solutions slows down convergence speed. The 128-bit problem with 8-bit partitions is defined as,
-\\
-\[
-    f(x)= \sum_{i=1}^{16} \delta_i(x)o(s_i), \text{where } \delta_i(x)
-\begin{cases}
-    1,& \text{if } x\in s_i\\
-    0,              & \text{otherwise}
-\end{cases}
-\] 
-If a string contains two instances of s, a fitness of 16 is achieved. If all instances are found, fitness = 128. \(s_i\) instances are blocks of all 1s but as with the HIFF, a random mask is applied to the output of DAGA before fitness evaluation.
-\subsubsection{MAXSAT}
+We also test the system on a \textbf{128-bit Royal Road problem} with 8-bit partitions \cite{mitchell1992royal}. As with the HIFF, a random mask is applied to the output of DAGA before fitness evaluation.
+
+Finally, the system is tested on a \textbf{3-CNF, 100-bit} MAXSAT problem obtained from SATLIB \cite{hoos2000satllb}. The problem consists of 430 clauses and belongs to the phase transition region, which is the point at which the problem transitions from generally solvable to generally unsolvable. 
+% , divides a bit string, \(x\), into a number of  equally sized, non-overlapping partitions, \(z_i\in[x_i, ..., x_{i+n}])\). If all of the bits in the partition match a predefined pattern, \(s_i\) , then the partition's fitness contribution is added to the overall fitness. The existence of these ``Building blocks" was meant to act as a ``royal road" for GAs compared to hill-climbers but bad alleles hitchhiking to good partial solutions slows down convergence speed. 
+
+% T
+% \\
+% \[
+%     f(x)= \sum_{i=1}^{16} \delta_i(x)o(s_i), \text{where } \delta_i(x)
+% \begin{cases}
+%     1,& \text{if } x\in s_i\\
+%     0,              & \text{otherwise}
+% \end{cases}
+% \] 
+% If a string contains two instances of s, a fitness of 16 is achieved. If all instances are found, fitness = 128. \(s_i\) instances are blocks of all 1s but as with the HIFF, a random mask is applied to the output of DAGA before fitness evaluation.
 \subsection{Continuous}
-\subsubsection{Sphere}
-\subsubsection{Rosenbrock}
-\subsubsection{Rastrigin}
+
+We evaluate our system's performance on continuous parameter optimisation problems by applying it to a 50-d Sphere, a 10-d Rosenbrock and a 10-d Rastrigin function. The Sphere function is given by $f(p) = \sum_{i=1}^{n} p_i^{2}, -5.12<p_{i}<5.12$. The Rosenbrock function is $f(p) = \sum_{i=1}^{n} 100(p_{i+1}-p_i^{2})^2 + (1+p_i)^2, -2.048 \le p_{i} \le 2.048$. And finally the Rastrigin function is defined as $f(p) = 10.n + \sum_{i=1}^n \left[p_i^2 - 10.\cos(2 \pi p_i)\right], -5.12 \le p_{i} \le 5.12$. 
+
 \subsection{Accumulation of Adaptation}
-To answer the question of whether solving previous problems can speedup convergence on unseen problems in the same class, a new task was devised that was influenced by Watson et al \cite{watson2014evolution}. DAGA is applied to solve three problems in sequence, without reinitialising the weights of the DA. The problems consist of minimising the hamming distance to a target string. The algorithm is evaluated on the difference in the number of iterations needed to solve the third problem after solving the first two, compared to solving the third problem on its own. The first and second solutions are a square and cross pattern. The third solution is a pattern made by recombining quarters from the original patterns. As each new solution can inherit a quarter from either the cross or the square pattern, there are \(2^4\) unique solutions. DAGA is tested on training on the cross and the square and then on one of the 16, as well as the square and the cross and then on of the other, leading to 32 experiments. 
+We investigate whether dAGA can be used to achieve faster convergence on new tasks, that are similar to tasks that it has already learnt to solve. In order to test the validity of this claim, a new task was devised that was influenced by Watson et al \cite{watson2014evolution}. dAGA is applied to solve three problem instances in sequence, without reinitialising the weights of the dA between instances. The problems consist of minimising the hamming distance to a target string, which represents an 81-pixel image. The algorithm is evaluated on the speed up created by solving the third solutions, where speed up is defined as the difference in the number of iterations needed to solve the third problem after solving the first two, compared to solving the third problem on its own. The first and second solutions are a Cross and Box pattern. The third solution is a pattern made by recombining quarters from the original patterns. As each new solution can inherit a quarter from either the Cross or the Box pattern, there are \(2^4\) unique solutions. dAGA is tested on training on the Cross and the Box (XB) and then on one of the 16, as well as the Box and the Cross (BX) and then on one of the other combined patterns, leading to 32 experiments.
+
+
+%To answer the question of whether solving previous problems can speedup convergence on unseen problems in the same class, a new task was devised that was influenced by Watson et al \cite{watson2014evolution}. dAGA is applied to solve three problems in sequence, without reinitialising the weights of the dA. The problems consist of minimising the hamming distance to a target string, which represents an 81-pixel image. The algorithm is evaluated on the speed up created by solving the third solutions, i.e. the difference in the number of iterations needed to solve the third problem after solving the first two, compared to solving the third problem on its own. The first and second solutions are a Cross and Box pattern. The third solution is a pattern made by recombining quarters from the original patterns. As each new solution can inherit a quarter from either the Cross or the Box pattern, there are \(2^4\) unique solutions. dAGA is tested on training on the Cross and the Box (XB) and then on one of the 16, as well as the Box and the Cross (BX) and then on one of the other combined patterns, leading to 32 experiments.
 
 \section{Results}
 \label{section:results}

@@ -75,6 +75,12 @@ Pelikan, M.:
 \newblock Hierarchical Bayesian optimization algorithm.
 \newblock Springer (2005)
 
+\bibitem{weingartner1967methods}
+Weingartner, H.M., Ness, D.N.:
+\newblock Methods for the solution of the multidimensional 0/1 knapsack
+  problem.
+\newblock Operations Research \textbf{15}(1) (1967)  83--103
+
 \bibitem{watson1999hierarchically}
 Watson, R.A., Pollack, J.B.:
 \newblock Hierarchically consistent test problems for genetic algorithms.
@@ -88,18 +94,15 @@ Mitchell, M., Forrest, S., Holland, J.H.:
 \newblock In: Proceedings of the first european conference on artificial life,
   Cambridge: The MIT Press (1992)  245--254
 
+\bibitem{hoos2000satllb}
+Hoos, H., Stiitzle, T.:
+\newblock Satllb: An online resource for research on sat.
+\newblock Sat (2000)  283
+
 \bibitem{watson2014evolution}
 Watson, R.A., Wagner, G.P., Pavlicev, M., Weinreich, D.M., Mills, R.:
 \newblock The evolution of phenotypic correlations and “developmental
   memory”.
 \newblock Evolution (2014)
-
-\bibitem{auger2009benchmarking}
-Auger, A.:
-\newblock Benchmarking the (1+ 1) evolution strategy with one-fifth success
-  rule on the bbob-2009 function testbed.
-\newblock In: Proceedings of the 11th Annual Conference Companion on Genetic
-  and Evolutionary Computation Conference: Late Breaking Papers, ACM (2009)
-  2447--2452
 
 \end{thebibliography}
