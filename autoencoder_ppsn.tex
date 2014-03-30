@@ -118,27 +118,34 @@ We present a toy example in order to validate our hypothesis. We train an autoen
 %In fig 3 we examine the use of corruption noise to control the size of the basins of attraction around the good solutions. By increasing corruption we force the network to reconstruct the training set (generate outputs) from examples (inputs) which are very different from the training set. When sampling this network with randomly generated examples as inputs, we expect the outputs to be increasingly similar to the training set, with higher corruption. We train the dA on a binary problem, to maximise the ones in a 20-bit binary string. The choice of the problem was motivated by the fact that MaxOnes has a unique optimum solution and the hamming distances from the optimal solution are easy to interpret. We let the algorithm run for 10 generations with varying corruption rates. The boxplot shows the hamming distance of the new population which is generated with randomly generated binary strings as inputs. From the figure we observe that the random inputs tend towards the optimal solutions more as corruption is increased, implying that the basin of attraction around the training examples is larger.
 
 We perform another experiment to test the effect of corruption noise on the outputs of the dA. We argue that increasing corruption noise widens the basin of attraction around the training examples. In this experiment, we train the GA on a 20-bit MaxOnes problem. The choice of the problem was motivated by the fact that MaxOnes has a unique optimum solution and the hamming distances from the optimal solution are easy to interpret. We allow the GA to run for 10 iterations and train the autoencoder on the best solutions at every iteration. The inputs to the dA are corrupted by a binary corruption process that stochastically flips a fixed proportion of bits for each example. The autoencoder is then trained to reconstruct the true targets from the corrupted inputs. After 10 iterations we present a set of randomly generated input vectors and sample a new population from the dA. We repeat this experiment with different corruption rates and the same set of input vectors and  plot the hamming distances of the new population from the optimum solution. From figure 3 we observe that increasing the corruption rate leads to a decrease in the hamming distances. This shows that as corruption noise is increased, the outputs of the dA are more likely to be closer to an example in the training set. ?
-\begin{figure}[t!]
-\center
-\includegraphics[width = 0.6\textwidth]{images/boxplots_basins.png}
+\begin{figure}[!]
+\vspace{-0.375in}
 
-\caption{Hamming distances to optimal solution on MaxOnes with different corruption levels.}
-\label{figure:hamming_max_one}
-\end{figure}
-
-\begin{figure}[t!]
-\center
-\includegraphics[width = 0.8\textwidth]{images/hiff-8-transition.png}
-
-\caption{8-bit HIFF transition matrix.}
-\label{figure:8bithiff}
+\centering
+\subfigure[]{
+\makebox[.4\textwidth]{
+    \includegraphics[scale=0.5]{images/binary_problem.png}
+    \label{fig:subfig1}
+    %\caption{After solving the box and cross}
+    }
+}
+\subfigure[]{
+\makebox[.4\textwidth]{
+    \includegraphics[scale=0.3]{images/boxplots_basins.png}
+    \label{fig:subfig1}
+    %\caption{After solving the box and cross}
+    }
+}
+\caption[Optional caption for list of figures]{ Showing (a) transition probabilities (from inputs to outputs) for all possible genomes (top) and the probabilities of different outputs marginalised over all possible inputs (bottom)  (b) Hamming distances of a randomly sampled population from the optimal solution on a 20-bit MaxOnes problem with different corruption levels.}
+\label{figure:experiment_subplots}
 \end{figure}
 
 \subsection{Optimisation Algorithm}
 
-The pipeline of the \emph{Denoising Autoencoder Genetic Algorithm} (DAGA) is similar to other EDAs and is inspired by methods in HBOA \cite{hboa}. A population of solutions is maintained, \(P_t\), and updated at each iteration, \(t\). An initial population of solutions, \(P_0\), is drawn from a uniform distribution. These solutions are evaluated and the fittest unique x\% are selected (i.e. truncation selection) to be in the training set, \(\hat{P_t}\). The Denoising Autoencoder, \(D_t\), is then trained with \(\hat{P_t}\) for \(e\) epochs. Following training, a new set of solutions, \(S_t\), is selected from \(P\) using tournament selection (with replacement). Each member of \(S_t\) is inputted to \(D_t\), and the output vector, \(y\), is sampled from using a binomial distribution, to produce a new solution. This solution is included in \(P_{t+1}\) if it is better than its closest neighbour according to Restricted Tournament Selection (RTR) \cite{hboa}. Pseudocode for DAGA is presented in Algorithm 1.
+The pipeline of the \emph{Denoising Autoencoder Genetic Algorithm} (DAGA) is similar to other EDAs and is inspired by methods in HBOA \cite{hboa}. A population of solutions is maintained, \(P_t\), and updated at each iteration, \(t\). An initial population of solutions, \(P_0\), is drawn from a uniform distribution. These solutions are evaluated and the fittest unique x\% are selected (i.e. truncation selection) to be in the training set, \(\hat{P_t}\). The Denoising Autoencoder, \(D_t\), is then trained with \(\hat{P_t}\) for \(e\) epochs. Following training, a new set of solutions, \(S_t\), is selected from \(P\) using tournament selection (with replacement). Each member of \(S_t\) is inputted to \(D_t\), and the output vector, \(y\), is sampled from using a binomial distribution, to produce a new solution. This solution is included in \(P_{t+1}\) if it is better than its closest neighbour according to Restricted Tournament Selection (RTR) \cite{hboa}.
 
 \section{Experiments}
+\vspace{-10px}
 \label{sec:experiments}
 DAGA is tested on three sets of experiments: (1) discrete, (2) continuous and (3) accumulation of adaptation problems. 
 

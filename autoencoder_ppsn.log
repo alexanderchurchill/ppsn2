@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  30 MAR 2014 18:48
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  30 MAR 2014 19:47
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -290,6 +290,21 @@ LaTeX Warning: Label `fig:subfig1' multiply defined.
 
 LaTeX Warning: Label `sub@fig:subfig1' multiply defined.
 
+
+LaTeX Warning: Label `fig:subfig1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:subfig1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig1' multiply defined.
+
+
+LaTeX Warning: Label `figure:experiment_subplots' multiply defined.
+
 )
 \openout1 = `autoencoder_ppsn.aux'.
 
@@ -389,113 +404,123 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 Underfull \vbox (badness 1152) has occurred while \output is active []
 
  [2]
-[3] <images/boxplots_basins.png, id=25, 578.16pt x 433.62pt>
+[3]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!htbp') on input line 121.
+
+<images/binary_problem.png, id=25, 315.8199pt x 426.393pt>
+File: images/binary_problem.png Graphic file (type png)
+
+<use images/binary_problem.png>
+<images/boxplots_basins.png, id=27, 578.16pt x 433.62pt>
 File: images/boxplots_basins.png Graphic file (type png)
 
 <use images/boxplots_basins.png>
-<images/hiff-8-transition.png, id=27, 578.16pt x 433.62pt>
-File: images/hiff-8-transition.png Graphic file (type png)
-
-<use images/hiff-8-transition.png>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-[5 <./images/boxplots_basins.png> <./images/hiff-8-transition.png>] [6]
+[5 <./images/binary_problem.png> <./images/boxplots_basins.png>]
 
-LaTeX Warning: Citation `Igel benchmarking' on page 7 undefined on input line 1
-87.
+LaTeX Warning: Citation `Igel benchmarking' on page 6 undefined on input line 1
+93.
 
+[6]
 
-Package caption Warning: \label before \caption on input line 207.
+Package caption Warning: \label before \caption on input line 212.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `table:main_results' on page 7 undefined on input line
- 189.
+ 195.
 
 
-Package caption Warning: \label before \caption on input line 207.
+Package caption Warning: \label before \caption on input line 212.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `table:main_results' on page 7 undefined on input line
- 189.
+ 195.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
 []\OT1/cmr/m/n/9 Knapsack
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
 []\OT1/cmr/m/n/9 Knapsack
  []
 
 
-Overfull \hbox (35.71097pt too wide) in paragraph at lines 191--208
+Overfull \hbox (35.71097pt too wide) in paragraph at lines 197--214
+[][]
+ []
+
+
+Package caption Warning: \label before \caption on input line 233.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `table:continuous_results' on page 7 undefined on inpu
+t line 219.
+
+
+Overfull \hbox (19.46718pt too wide) in paragraph at lines 221--235
 [][]
  []
 
 [7]
 
-Package caption Warning: \label before \caption on input line 228.
-See the caption package documentation for explanation.
+LaTeX Warning: Reference `' on page 8 undefined on input line 240.
 
 
-LaTeX Warning: Reference `table:continuous_results' on page 8 undefined on inpu
-t line 213.
+LaTeX Warning: Reference `' on page 8 undefined on input line 240.
 
 
-Overfull \hbox (19.46718pt too wide) in paragraph at lines 215--229
+LaTeX Warning: Reference `' on page 8 undefined on input line 240.
+
+[8]
+Overfull \hbox (56.88594pt too wide) in paragraph at lines 245--252
 [][]
  []
 
-
-LaTeX Warning: Reference `' on page 8 undefined on input line 234.
-
-
-LaTeX Warning: Reference `' on page 8 undefined on input line 234.
-
-
-LaTeX Warning: Reference `' on page 8 undefined on input line 234.
-
-[8] [9]
-Overfull \hbox (56.88594pt too wide) in paragraph at lines 239--246
-[][]
- []
-
-<images/boxy_square_cmap.png, id=52, 676.4472pt x 101.9007pt>
+<images/boxy_square_cmap.png, id=48, 676.4472pt x 101.9007pt>
 File: images/boxy_square_cmap.png Graphic file (type png)
 
 <use images/boxy_square_cmap.png>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!htbp') on input line 257.
+               Default added (so using `!htbp') on input line 263.
 
-<images/lots_of_crossies.png, id=53, 578.16pt x 433.62pt>
+<images/lots_of_crossies.png, id=49, 578.16pt x 433.62pt>
 File: images/lots_of_crossies.png Graphic file (type png)
 
 <use images/lots_of_crossies.png>
-<images/first_pop.png, id=54, 578.16pt x 433.62pt>
+<images/first_pop.png, id=50, 578.16pt x 433.62pt>
 File: images/first_pop.png Graphic file (type png)
  <use images/first_pop.png>
-<images/no_learning.png, id=55, 578.16pt x 433.62pt>
+<images/no_learning.png, id=51, 578.16pt x 433.62pt>
 File: images/no_learning.png Graphic file (type png)
 
 <use images/no_learning.png>
 
-LaTeX Warning: Float too large for page by 204.04012pt on input line 282.
+LaTeX Warning: Float too large for page by 204.04012pt on input line 288.
 
-[10 <./images/boxy_square_cmap.png>] [11 <./images/lots_of_crossies.png> <./ima
-ges/first_pop.png> <./images/no_learning.png>] (./autoencoder_ppsn.bbl [12]
+
+LaTeX Warning: Reference `figure:hamming_max_one' on page 9 undefined on input 
+line 292.
+
+[9] [10 <./images/boxy_square_cmap.png>] [11 <./images/lots_of_crossies.png> <.
+/images/first_pop.png> <./images/no_learning.png>] (./autoencoder_ppsn.bbl
+[12]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no œ in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no  in font cmr9!
-)
-[13] (./autoencoder_ppsn.aux)
+) [13] (./autoencoder_ppsn.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -504,10 +529,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3827 strings out of 493747
- 54543 string characters out of 3143546
- 135748 words of memory out of 3000000
- 7054 multiletter control sequences out of 15000+200000
+ 3826 strings out of 493747
+ 54511 string characters out of 3143546
+ 136732 words of memory out of 3000000
+ 7053 multiletter control sequences out of 15000+200000
  11544 words of font info for 44 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  38i,10n,38p,1781b,310s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -527,7 +552,7 @@ ve/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive
 010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/201
 0/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2010/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on autoencoder_ppsn.pdf (13 pages, 463268 bytes).
+Output written on autoencoder_ppsn.pdf (13 pages, 303749 bytes).
 PDF statistics:
  124 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
